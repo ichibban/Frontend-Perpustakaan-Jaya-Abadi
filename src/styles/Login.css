@@ -1,0 +1,136 @@
+/* Menghapus margin dan padding default serta memastikan halaman mengisi 100% tinggi layar */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+/* Container utama untuk login yang mengatur layout */
+.bg-primary {
+  background: linear-gradient(to top,#47A1FF, #1565C0FF, #0D47A1FF); /* Warna latar belakang biru */
+}
+
+/* Mengatur tata letak login-content */
+.login-content {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 15px; /* Rounded corners untuk card */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+/* Judul halaman login */
+h2 {
+  font-size: 30px;
+  color: #0066cc;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.sub-judul{
+    font-size: 20px;
+}
+/* Styling untuk paragraf (menjadikan teks lebih besar) */
+p {
+  text-align: center;
+  font-size: 14px; 
+  color: #fff; 
+  margin-top: 5px;
+  margin-bottom: 20px; 
+}
+
+/* Styling untuk form input (email, password) */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px; 
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Styling untuk tombol login */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0066cc;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px; /* Rounded corners untuk tombol */
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Styling untuk link */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Spinner Style */
+.spinner {
+  border: 4px solid transparent;
+  border-top: 4px solid #0066cc;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Menambahkan styling untuk pesan error konfirmasi password */
+.text-danger {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+/* Navbar Styles */
+.navbar {
+  background-color: #212529;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: white;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
