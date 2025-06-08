@@ -6,10 +6,10 @@ import "../styles/Profile.css";
 const UserProfile = () => {
   const [isEditing, setIsEditing] = useState(false);
   const [userData, setUserData] = useState({
-    displayName: 'Ahmad Rizki',
-    fullName: 'Ahmad Rizki Pratama',
-    email: 'rizki@gmail.com',
-    birthDate: '1995-05-15'
+    displayName: 'Hibban Musyaffa',
+    fullName: 'Muhammad Hibban Musyaffa',
+    email: 'Hibban@gmail.com',
+    birthDate: '2004-05-15'
   });
 
   const handleInputChange = (field, value) => {
