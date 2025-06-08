@@ -48,7 +48,7 @@ const DaftarBookingSaya = () => {
           Daftar Booking Saya
         </h1>
         <p className="header-subtitle">
-          Selamat datang kembali di Perpustakaan Jaya Abadi!
+          Selamat datang kembali di Perpustakaan Jaya Abadi
         </p>
       </div>
 
